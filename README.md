@@ -7,7 +7,7 @@ Esta es la aplicación que he creado como trabajo de fin de ciclo superior de  D
 Esta creada  con  AndroidStudio en lenguaje Java
 Consta de Base de datos Firebase  para la creacion de los usuarios y la gestion de toda la información que se muestra el la app
 
-Contiene:
+### Funciones:
 
 1. Gestión de familias lista de grupo de artículos donde se encuentras grupos similares.
 
