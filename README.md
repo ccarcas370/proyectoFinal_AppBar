@@ -24,12 +24,6 @@ Consta de Base de datos Firebase  para la creacion de los usuarios y la gestion 
 
 -----------
 
-## Despliegue (como ejecutar la aplicación desde la carpeta ejecutable)
-
-### Apk
-1. Accede a la ruta donde se encuentre el ejecutable, carpeta exe.
-2. Simplemente haz doble click en el archivo jar para que este se ejecute.
-    
 ## Construido con
 IDE (entorno de desarrollo integrado) AndroidStudio 11.01.11.
 
