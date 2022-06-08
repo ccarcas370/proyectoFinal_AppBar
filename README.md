@@ -2,10 +2,13 @@
 
 ## Descripción
 
-Aplicación Android educativa sobre Dinosaurios y la Prehistoria.
-Esta es la aplicación que he creado como trabajo de fin de ciclo superior de  DAM
-Esta creada  con  AndroidStudio en lenguaje Java
-Consta de Base de datos Firebase  para la creacion de los usuarios y la gestion de toda la información que se muestra el la app
+Aplicación Android TPV de gestión hostelera.
+
+Esta es la aplicación que he creado como trabajo de fin de ciclo superior de  DAM del curso 2021/2022.
+
+Esta creada  con  AndroidStudio empleando como lenguaje de programación Kotlin.
+
+Consta de Base de datos Firebase  para la creacion de los usuarios y la gestion de toda la información que se muestra el la app: ***"pedidos***", ***"mesas***", ***"TPV***", ***"familias***" y ***"artículos***".
 
 ### Funciones:
 
