@@ -85,5 +85,26 @@
     <string name="contrasena_error">Fill in the password field</string>
     <string name="inicio_sin_permisos">Wait to be authorized</string>
     <string name="eliminar">Remove</string>
-
+    <string name="email">Email</string>
+    <string name="asunto">Subject</string>
+    <string name="mensaje">Message</string>
+    <string name="btn_enviar">Send</string>
+    <string name="cadena_asunto">Test restaurant ticket</string>
+    <string name="cadena_mensaje">We send you the restaurant receipt as an attachment. Thank you for your visit. We hope to see you soon.</string>
+    <string name="btn_modificar_salon">Modify Hall</string>
+    <string name="salon_modificado">Modified Hall</string>
+    <string name="btn_add">Add</string>
+    <string name="nombre_salon">Hall name</string>
+    <string name="nombre_articulo">Items name</string>
+    <string name="precio_articulo">Item price</string>
+    <string name="cantidad_articulo">Item quantity</string>
+    <string name="guardar_pedido">Save order</string>
+    <string name="linea_pedido_guardada">Saved line item</string>
+    <string name="btn_pedidos">Orders</string>
+    <string name="txt_total">Total</string>
+    <string name="btn_pdf_factura">Pay</string>
+    <string name="btn_email_factura">Send email</string>
+    <string name="titulo_lineas_pedido">List of drinks</string>
+    <string name="titulo_pedidos">Order list</string>
+    <string name="cabecera_ticket">Test restaurant</string>
 </resources>
