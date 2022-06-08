@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/volver"
+        android:title="@string/btn_volver" />
+    <item
+        android:id="@+id/ir_menu_inicial"
+        android:title="@string/ir_menu_inicial" />
+</menu>

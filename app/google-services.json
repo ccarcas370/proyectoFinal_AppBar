@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "75063480098",
+    "firebase_url": "https://aplicacion-proyecto-e79a2-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "aplicacion-proyecto-e79a2",
+    "storage_bucket": "aplicacion-proyecto-e79a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75063480098:android:f3eff80f3cdcec298b5f7b",
+        "android_client_info": {
+          "package_name": "com.example.appbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75063480098-6v6ri71lqtkub6gmghlm8pv2vfqiecl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjTd7DJNFJ6911fwzhoO-TigUpKM36xYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75063480098-6v6ri71lqtkub6gmghlm8pv2vfqiecl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

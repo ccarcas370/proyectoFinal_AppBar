@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppBar</string>
+    <string name="TipoMesa">Select the type of table</string>
+
+    <string-array name="ContenidoFamilias">
+        <item>Choose an image</item>
+        <item>Coffee</item>
+        <item>Soft drinks</item>
+        <item>Snacks</item>
+        <item>Desserts</item>
+    </string-array>
+
+    <string name="BotonTipoMesa">OK</string>
+    <string name="btn_familias">FAMILIES</string>
+    <string name="btn_articulos">ITEMS</string>
+    <string name="btn_tpv">TPV</string>
+    <string name="btn_gestSalones">Management halls</string>
+    <string name="btn_crear">Create</string>
+    <string name="btn_acceder">Log in</string>
+    <string name="titulo_menuInicial_salones">Management halls</string>
+    <string name="titulo_btn_crear">Create a new hall</string>
+    <string name="titulo_btn_acceder">Halls already created</string>
+    <string name="edt_nombre_salon">Indicate the name of the hall</string>
+    <string name="btn_volver">Return</string>
+    <string name="btn_salir">Exit</string>
+    <string name="btn_crear_salon_add_mesa">Add table</string>
+    <string name="btn_guardar_salon">Save Hall</string>
+    <string name="mensaje_error_nombre_salon">You must enter a name for the hall</string>
+    <string name="titulo_menu_inicial">Hall management</string>
+    <string name="titulo_selecionar_tipo_mesa">Add items to the hall</string>
+    <string name="titulo_crear_salon">Hall design</string>
+    <string name="salon_guardado">Saved hall</string>
+    <string name="user_guardado">Saved user</string>
+    <string name="titulo_aplicacion">Almerirest</string>
+    <string name="titulo_borrar_salon">Delete hall</string>
+    <string name="mensaje_borrar_salon">The hall will be permanently deleted. Do you want to delete it?</string>
+    <string name="no_borrar_salon">No</string>
+    <string name="si_borrar_salon">Yes</string>
+    <string name="salir_app">Are you sure you want to sign out the application?</string>
+    <string name="titulo_salir_app">Sign out application</string>
+    <string name="ir_menu_inicial">Go to main menu</string>
+    <string name="titulo_menu_inicial_familias">Family management</string>
+    <string name="titulo_btn_crear_familias">Create a new family</string>
+    <string name="titulo_btn_acceder_familias">Families already created</string>
+    <string name="btn_guardar_familia">Save family</string>
+    <string name="btn_limpiar_familia">Clear</string>
+    <string name="edt_nombre_familia">Indicate the name of the family</string>
+    <string name="mensaje_error_nombre_familia">You must enter a name for the family</string>
+    <string name="familia_guardada">Saved family</string>
+    <string name="btn_modificar_familia">Modify Family</string>
+    <string name="familia_modificada">Modified family</string>
+    <string name="titulo_borrar_familia">Delete family</string>
+    <string name="mensaje_borrar_familia">The family will be permanently deleted. Do you want to delete it?</string>
+    <string name="titulo_menu_inicial_articulos">Item Management</string>
+    <string name="titulo_btn_crear_articulos">Create a new item</string>
+    <string name="titulo_btn_acceder_articulos">Item already created</string>
+    <string name="btn_guardar_articulo">Save item</string>
+    <string name="edt_nombre_articulo">Indicate the name of the item</string>
+    <string name="edt_precio_articulo">Indicate the price of the item</string>
+    <string name="mensaje_error_nombre_articulo">You must enter a name for the item</string>
+    <string name="mensaje_error_precio_articulo">You must enter a price for the item</string>
+    <string name="articulo_guardado">Saved item</string>
+    <string name="titulo_borrar_articulo">Delete item</string>
+    <string name="mensaje_borrar_articulo">The item will be permanently deleted. Do you want to delete it?</string>
+    <string name="selecciona_familia_para_articulo">Select a family to which the item belongs</string>
+    <string name="mensaje_error_no_hay_familias">At least one family must exist before creating an item</string>
+    <string name="titulo_apartado_articulos">Access denied</string>
+    <string name="titulo_atencion_familia">Deletion error, caution!!!</string>
+    <string name="mensaje_atencion_borrar_familia">You cannot delete the family because it has an associated item. Delete the item first</string>
+    <string name="btn_modificar_articulo">Modify Item</string>
+    <string name="mensaje_error_nombre_articulo_modificar">You must enter a name for the item</string>
+    <string name="mensaje_error_precio_articulo_modificar">You must enter a price for the item</string>
+    <string name="articulo_modificado">Modified item</string>
+    <string name="btn_registrarse_login">Sign in</string>
+    <string name="txt_contrasena">Password</string>
+    <string name="txt_Email">Email</string>
+    <string name="aceptar">To accept</string>
+    <string name="error_identificacion">An error occurred while logging in</string>
+    <string name="error_autenticacion">Authentication Error</string>
+    <string name="error">Error!!!</string>
+    <string name="error_mensaje">An error has occurred!!!</string>
+    <string name="email_error">Fill in the email field !!!!</string>
+    <string name="contrasena_error">Fill in the password field</string>
+    <string name="inicio_sin_permisos">Wait to be authorized</string>
+    <string name="eliminar">Remove</string>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".login.LoginActivity">
+
+    <EditText
+        android:id="@+id/et_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/txt_Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_contrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/txt_contrasena"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_mail" />
+
+    <Button
+        android:id="@+id/btn_acceder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:backgroundTint="@color/botones_principales"
+        android:text="@string/btn_acceder"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_limpiar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_limpiar"
+        app:layout_constraintTop_toTopOf="@+id/btn_limpiar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_registrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/botones_principales"
+        android:text="@string/btn_registrarse_login"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/btn_limpiar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_contrasena" />
+
+    <Button
+        android:id="@+id/btn_limpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:backgroundTint="@color/botones_principales"
+        android:text="@string/btn_limpiar_familia"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_registrarse"
+        app:layout_constraintEnd_toStartOf="@+id/btn_acceder"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_registrarse"
+        app:layout_constraintTop_toTopOf="@+id/btn_registrarse"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

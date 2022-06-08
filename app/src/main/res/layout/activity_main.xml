@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_familias"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="@color/botones_principales"
+        android:drawableEnd="@drawable/iconofamilias"
+        android:text="@string/btn_familias"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_articulos"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="108dp"
+        android:backgroundTint="@color/botones_principales"
+        android:drawableEnd="@drawable/iconoarticulos"
+        android:text="@string/btn_articulos"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_familias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_familias"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_tpv"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@color/botones_principales"
+        android:drawableEnd="@drawable/iconotpv"
+        android:text="@string/btn_tpv"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_familias" />
+
+    <Button
+        android:id="@+id/btn_gestSalones"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="108dp"
+        android:backgroundTint="@color/botones_principales"
+        android:drawableEnd="@drawable/iconogestsalones"
+        android:text="@string/btn_gestSalones"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_tpv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_tpv"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/titulo_aplicacion"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_salir_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/botones_principales"
+        android:text="@string/btn_salir"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inicio_sin_permisos"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_salir_inicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btn_pedido"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="336dp"
+        android:layout_marginTop="128dp"
+        android:backgroundTint="@color/botones_principales"
+        android:drawableEnd="@drawable/iconopedido"
+        android:text="@string/btn_pedidos"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

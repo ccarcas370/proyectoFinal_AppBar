@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".familias.CrearFamiliasActivity">
+
+    <EditText
+        android:id="@+id/edt_nombre_familia"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/edt_nombre_familia"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_guardar_familias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/botones_principales"
+        android:text="@string/btn_guardar_familia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_limpiar_familias"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_volver_familias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/botones_principales"
+        android:text="@string/btn_volver"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_limpiar_familias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_limpiar_familias"
+        app:layout_constraintTop_toTopOf="@+id/btn_limpiar_familias"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_limpiar_familias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/botones_principales"
+        android:text="@string/btn_limpiar_familia"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_guardar_familias"
+        app:layout_constraintEnd_toStartOf="@+id/btn_volver_familias"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_guardar_familias"
+        app:layout_constraintTop_toTopOf="@+id/btn_guardar_familias"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/img_bocadillo"
+        android:layout_width="136dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="149dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_familia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sp_familia"
+        app:layout_constraintVertical_bias="0.447"
+        app:srcCompat="@drawable/bocadillo" />
+
+    <ImageView
+        android:id="@+id/img_refresco"
+        android:layout_width="136dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="149dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_familia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sp_familia"
+        app:layout_constraintVertical_bias="0.447"
+        app:srcCompat="@drawable/refresco" />
+
+    <ImageView
+        android:id="@+id/img_postre"
+        android:layout_width="136dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="149dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_familia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sp_familia"
+        app:layout_constraintVertical_bias="0.447"
+        app:srcCompat="@drawable/postre" />
+
+    <ImageView
+        android:id="@+id/img_cafe"
+        android:layout_width="136dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="149dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_familia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sp_familia"
+        app:layout_constraintVertical_bias="0.447"
+        app:srcCompat="@drawable/cafe" />
+
+    <ImageView
+        android:id="@+id/img_no_imagen"
+        android:layout_width="136dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="149dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_familia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sp_familia"
+        app:layout_constraintVertical_bias="0.447"
+        app:srcCompat="@drawable/sinimagen" />
+
+    <Spinner
+        android:id="@+id/sp_familia"
+        android:layout_width="335dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="52dp"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_nombre_familia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

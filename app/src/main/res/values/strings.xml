@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">AppBar</string>
+    <string name="TipoMesa">Selecciona el tipo de mesa</string>
+
+    <string-array name="ContenidoFamilias">
+        <item>Elige una imagen</item>
+        <item>Cafés</item>
+        <item>Refrescos</item>
+        <item>Bocadillos</item>
+        <item>Postres</item>
+    </string-array>
+
+    <string name="BotonTipoMesa">OK</string>
+    <string name="btn_familias">FAMILIAS</string>
+    <string name="btn_articulos">ARTICULOS</string>
+    <string name="btn_tpv">TPV</string>
+    <string name="btn_gestSalones">Gest. Salones</string>
+    <string name="btn_crear">Crear</string>
+    <string name="btn_acceder">Acceder</string>
+    <string name="titulo_menuInicial_salones">Gestión de salones</string>
+    <string name="titulo_btn_crear">Crear un nuevo salón</string>
+    <string name="titulo_btn_acceder">Salones ya creados</string>
+    <string name="edt_nombre_salon">Indica el nombre del salón</string>
+    <string name="btn_volver">Volver</string>
+    <string name="btn_salir">Salir</string>
+    <string name="btn_crear_salon_add_mesa">Añadir mesa</string>
+    <string name="btn_guardar_salon">Guardar Salón</string>
+    <string name="mensaje_error_nombre_salon">Debe introducir un nombre para el salón</string>
+    <string name="titulo_menu_inicial">Gestión de salones</string>
+    <string name="titulo_selecionar_tipo_mesa">Añadir elementos al salón</string>
+    <string name="titulo_crear_salon">Diseño del salón</string>
+    <string name="salon_guardado">Salón guardado</string>
+    <string name="user_guardado">Usuario guardado</string>
+    <string name="titulo_aplicacion">Almerirest</string>
+    <string name="titulo_borrar_salon">Borrar salón</string>
+    <string name="mensaje_borrar_salon">Se borrará el salón permanentemente.¿Desea borrarlo?</string>
+    <string name="no_borrar_salon">No</string>
+    <string name="si_borrar_salon">Si</string>
+    <string name="salir_app">¿Esta seguro que desea salir de la aplicación?</string>
+    <string name="titulo_salir_app">Salir de la aplicación</string>
+    <string name="ir_menu_inicial">Ir menú inicial</string>
+    <string name="titulo_menu_inicial_familias">Gestión de familias</string>
+    <string name="titulo_btn_crear_familias">Crear una nueva familia</string>
+    <string name="titulo_btn_acceder_familias">Familias ya creadas</string>
+    <string name="btn_guardar_familia">Guardar Familia</string>
+    <string name="btn_limpiar_familia">Limpiar</string>
+    <string name="edt_nombre_familia">Indica el nombre de la familia</string>
+    <string name="mensaje_error_nombre_familia">Debe introducir un nombre para la familia</string>
+    <string name="familia_guardada">Familia guardada</string>
+    <string name="btn_modificar_familia">Modificar Familia</string>
+    <string name="familia_modificada">Familia modificada</string>
+    <string name="titulo_borrar_familia">Borrar familia</string>
+    <string name="mensaje_borrar_familia">Se borrará la familia permanentemente.¿Desea borrarlo?</string>
+    <string name="titulo_menu_inicial_articulos">Gestión de artículos</string>
+    <string name="titulo_btn_crear_articulos">Crear un nuevo artículo</string>
+    <string name="titulo_btn_acceder_articulos">Artículos ya creados</string>
+    <string name="btn_guardar_articulo">Guardar Artículo</string>
+    <string name="edt_nombre_articulo">Indica el nombre del artículo</string>
+    <string name="edt_precio_articulo">Indica el precio del artículo</string>
+    <string name="mensaje_error_nombre_articulo">Debe introducir un nombre para el artículo</string>
+    <string name="mensaje_error_precio_articulo">Debe introducir un precio para el artículo</string>
+    <string name="articulo_guardado">Articulo guardado</string>
+    <string name="titulo_borrar_articulo">Borrar artículo</string>
+    <string name="mensaje_borrar_articulo">Se borrará el artículo permanentemente.¿Desea borrarlo?</string>
+    <string name="selecciona_familia_para_articulo">Seleccione una familia a la pertecene el artículo</string>
+    <string name="mensaje_error_no_hay_familias">Debe existir al menos una familia antes de crear un artículo</string>
+    <string name="titulo_apartado_articulos">Acceso denegado</string>
+    <string name="titulo_atencion_familia">Error de borrado, precacución!!!</string>
+    <string name="mensaje_atencion_borrar_familia">No puede borrar la familia porque tiene un artículo asociado. Elimine primero el artículo</string>
+    <string name="btn_modificar_articulo">Modificar Artículo</string>
+    <string name="mensaje_error_nombre_articulo_modificar">Debe introducir un nombre para el artículo</string>
+    <string name="mensaje_error_precio_articulo_modificar">Debe introducir un precio para el artículo</string>
+    <string name="articulo_modificado">Artículo modificado</string>
+    <string name="btn_registrarse_login">Registrarse</string>
+    <string name="txt_contrasena">Contraseña</string>
+    <string name="txt_Email">Email</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="error_identificacion">Se ha producido un error al identificarse</string>
+    <string name="error_autenticacion">Error de autenticación</string>
+    <string name="error">Error!!!</string>
+    <string name="error_mensaje">Se ha producido un error!!!</string>
+    <string name="email_error">Rellene el campo email !!!!</string>
+    <string name="contrasena_error">Rellene el campo password</string>
+    <string name="inicio_sin_permisos">Espere a ser autorizado</string>
+    <string name="eliminar">Eliminar</string>
+
+
+    <string name="email">Email</string>
+    <string name="asunto">Asunto</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="cadena_asunto">Ticket del restaurante de prueba</string>
+    <string name="cadena_mensaje">Le enviamos como archivo adjunto el ticket del restaurante. Muchas gracias por su visita. Esperamos verle proximamente.</string>
+    <string name="btn_modificar_salon">Modificar Salón</string>
+    <string name="salon_modificado">Salón Modificado</string>
+    <string name="btn_add">Añadir</string>
+    <string name="nombre_salon">Nombre del salón</string>
+    <string name="nombre_articulo">Nombre del artículo</string>
+    <string name="precio_articulo">Precio del artículo</string>
+    <string name="cantidad_articulo">Cantidad del artículo</string>
+    <string name="guardar_pedido">Guardar comanda</string>
+    <string name="linea_pedido_guardada">Linea de pedido guardada</string>
+    <string name="btn_pedidos">Pedidos</string>
+    <string name="txt_total">Total</string>
+    <string name="btn_pdf_factura">Pagar</string>
+    <string name="btn_email_factura">Enviar email</string>
+    <string name="titulo_lineas_pedido">Lista de consumiciones</string>
+    <string name="titulo_pedidos">Lista de pedidos</string>
+    <string name="cabecera_ticket">Restaurante de prueba</string>
+
+</resources>
