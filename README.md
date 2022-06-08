@@ -10,9 +10,13 @@ Consta de Base de datos Firebase  para la creacion de los usuarios y la gestion 
 Contiene:
 
 Gestión de familias lista de grupo de artículos donde se encuentras grupos similares.
+
 Gestión de artículos cada uno de los productos del comercio hostelero.
+
 Gestión de salones para poder definir y nombrar las diferentes mesas del establecimiento.
+
 TPV donde asignar a cada mesa cada una de las consumiciones de los clientes que ocupen dicha mesa.
+
 Gestión de pedidos donde gestionar y cobrar las facturas de cada una de las mesas.
 
 -----------
